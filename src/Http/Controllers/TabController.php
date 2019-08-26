@@ -1,6 +1,6 @@
 <?php
 
-namespace :namespace_vendor\:namespace_tab_name\Http\Controllers;
+namespace Facade\SelfDiagnosis\Http\Controllers;
 
 use Illuminate\Http\Request;
 

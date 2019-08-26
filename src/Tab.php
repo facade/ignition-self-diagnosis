@@ -1,6 +1,6 @@
 <?php
 
-namespace :namespace_vendor\:namespace_tab_name;
+namespace Facade\SelfDiagnosis;
 
 use Facade\Ignition\Tabs\Tab as BaseTab;
 
@@ -8,17 +8,17 @@ class Tab extends BaseTab
 {
     public function name(): string
     {
-        return ':tab_name';
+        return 'Self Diagnosis';
     }
 
     public function component(): string
     {
-        return ':package_name';
+        return 'ignition-self-diagnosis';
     }
 
     public function registerAssets()
     {
-        $this->script(':package_name', __DIR__.'/../dist/js/tab.js');
+        $this->script('ignition-self-diagnosis', __DIR__.'/../dist/js/tab.js');
     }
 
     public function meta(): array
