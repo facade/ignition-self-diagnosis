@@ -1,3 +1,5 @@
+**THIS PACKAGE HAS BEEN ABANDONED**
+
 # Perform self diagnosis checks within your Ignition error page
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/facade/ignition-self-diagnosis.svg?style=flat-square)](https://packagist.org/packages/facade/ignition-self-diagnosis)
